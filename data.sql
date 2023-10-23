@@ -1,12 +1,12 @@
     insert into activity(
         activity_id,
     	activitytypeid,
+        code,
         name,
-        sysname,
         parent_id
     )
-    values(1,1,'Программа','Program',null),
-        (2,2,'Подпрограмма','SubProgram',1),
-        (3,3,'Проект','Project',2),
-        (4,4,'Контракт','Contract',3),
-        (5,5,'КТ','Point',4);
+    values(1,1,'Some code','Program',null),
+        (2,2,'Some code','SubProgram',1),        
+        (3,3,'Some code','Project',2),
+        (4,4,'Some code','Contract',3);       
+        
